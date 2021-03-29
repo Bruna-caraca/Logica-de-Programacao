@@ -1,0 +1,22 @@
+/*Faça um programa que leia um valor informado pelo usuário e imprima 
+todos os valores inteiros entre 1 (inclusive) e o numero informado (inclusive). 
+Considere que o número informado será sempre maior que ZERO*/
+
+programa
+{
+	inclua biblioteca Util --> tempo
+	inteiro num, val
+	
+	funcao inicio()
+	{
+		val = 0
+		escreva("Digite um numero inteiro maior que zero: ")
+		leia(num)
+
+		enquanto (val < num) {
+			val = val + 1
+			escreva(val, "\n")
+			tempo.aguarde(500)
+		}	
+	}
+}
