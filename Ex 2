@@ -1,3 +1,4 @@
+/*Faça um programa mostrando a tabuada do 5 com os números de 1 a 10*/
 programa
 {
 	inclua biblioteca Util --> tempo
