@@ -1,0 +1,37 @@
+programa
+{
+	inclua biblioteca Texto
+	
+real num1, num2, res
+	cadeia op
+	
+	funcao inicio()
+	{
+		escreva("Olá, bem vindo(a)\n")
+		escreva("Digite o primeiro número: ")
+		leia(num1)
+		escreva("Digite o segundo número: ")
+		leia(num2)
+		escreva("Escolha a operação (subtrair, somar, multiplicar e dividir): ")
+		leia(op)
+		Texto.caixa_baixa(op)
+
+		se (op == "subtrair") {
+			res = num1 - num2
+		}
+
+		senao se (op == "somar") {
+			res = num1 + num2
+		}
+
+		senao se (op == "multiplicar") {
+			res = num1 * num2
+		}
+
+		senao {
+			res = num1/num2
+		}
+
+		escreva("O resultado da operação foi " ,res)
+	}
+}
