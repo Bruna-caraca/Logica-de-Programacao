@@ -1,0 +1,59 @@
+/*A Loja FabiDRONES está promovendo uma promoção onde cada drone artesanal
+custa R$8.190 e pode ser pago em até 15 vezes sem juros. Crie um programa 
+onde o usuário possa informar o valor parcelas que deseja pagar e exiba o valor de cada parcela*/
+
+programa
+{
+	
+real parcelas, valor 
+	
+	funcao inicio()
+	{
+		escreva("Qual o valor de parcelas que deseja pagar?: ")
+		leia(parcelas)
+
+		se (parcelas == 2) {
+			valor = 8190/2
+		}
+		senao se (parcelas == 3) {
+			valor = 8190/3
+		}
+		senao se (parcelas == 4) {
+			valor = 8190/4
+		}
+		senao se (parcelas == 5) {
+			valor = 8190/5
+		}
+		senao se (parcelas == 6) {
+			valor = 8190/6
+		}
+		senao se (parcelas == 7) {
+			valor = 8190/7
+		}		
+		senao se (parcelas == 8) {
+			valor = 8190/8
+		}
+		senao se (parcelas == 9) {
+			valor = 8190/9
+		}
+		senao se (parcelas == 10) {
+			valor = 8190/10
+		}
+		senao se (parcelas == 11) {
+			valor = 8190/11
+		}
+		senao se (parcelas == 12) {
+			valor = 8190/12
+		}
+		senao se (parcelas == 13) {
+			valor = 8190/13
+		}
+		senao se (parcelas == 14) {
+			valor = 8190/14
+		}
+		senao se (parcelas == 15) {
+			valor = 8190/15
+		}
+		escreva("O valor da parcela é R$" ,valor)
+	}
+}
