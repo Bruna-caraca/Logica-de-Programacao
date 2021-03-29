@@ -1,3 +1,5 @@
+/*Faça um programa que receba dois números reais e mostre um menu de opções 
+(Subtrair, Somar, Multiplicar e Dividir), realizando a operação de acordo com a opção escolhida no menu e mostrando o resultado*/
 programa
 {
 	inclua biblioteca Texto
