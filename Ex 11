@@ -1,0 +1,44 @@
+/*Faça um programa que 10 valores informados pelo usuário, calcule, exiba os números informados e escreva a média aritmética desses valores lidos*/
+programa
+{
+	
+real val1, val2, val3, val4, val5, val6, val7, val8, val9, val10, total
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro valor: ")
+		leia(val1)
+		escreva("Digite o segundo valor: ")
+		leia(val2)
+		escreva("Digite o terceiro valor: ")
+		leia(val3)
+		escreva("Digite o quarto valor: ")
+		leia(val4)
+		escreva("Digite o quinto valor: ")
+		leia(val5)
+		escreva("Digite o sexto valor: ")
+		leia(val6)
+		escreva("Digite o sétimo valor: ")
+		leia(val7)
+		escreva("Digite o oitavo valor: ")
+		leia(val8)
+		escreva("Digite o nono valor: ")
+		leia(val9)
+		escreva("Digite o décimo valor: ")
+		leia(val10)
+
+		total = (val1 + val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9 + val10)/10
+		escreva("Os valores informados foram: ", val1, "\n")
+		escreva(val2, "\n")
+		escreva(val3, "\n")
+		escreva(val4, "\n")
+		escreva(val5, "\n")
+		escreva(val6, "\n")
+		escreva(val7, "\n")
+		escreva(val8, "\n")
+		escreva(val9, "\n")
+		escreva(val10, "\n")
+
+		escreva("A média artmética dos números informados é " ,total)
+	}
+}
