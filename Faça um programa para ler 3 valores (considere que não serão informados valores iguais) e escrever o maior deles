@@ -1,0 +1,26 @@
+programa
+{
+	real valor1, valor2, valor3
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro valor: ")
+		leia(valor1)
+		escreva("Digite o segundo valor: ")
+		leia(valor2)
+		escreva("Digite o primeiro valor: ")
+		leia(valor3)
+
+		se (valor1 > valor2 e valor1 > valor3) {
+			escreva("O maior número é ", valor1)
+		}
+
+		senao se (valor2 > valor1 e valor2 > valor3) {
+			escreva("O maior número é ", valor2)
+		}
+
+		senao {
+			escreva("O maior número é ", valor3)
+		}
+	}
+}
