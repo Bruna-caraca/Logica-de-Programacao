@@ -1,0 +1,33 @@
+programa
+{
+	
+real val1, val2, val3, val4, val5, val6, val7, val8, val9, val10, total
+	
+	funcao inicio()
+	{
+		escreva("Digite o primeiro valor: ")
+		leia(val1)
+		escreva("Digite o segundo valor: ")
+		leia(val2)
+		escreva("Digite o terceiro valor: ")
+		leia(val3)
+		escreva("Digite o quarto valor: ")
+		leia(val4)
+		escreva("Digite o quinto valor: ")
+		leia(val5)
+		escreva("Digite o sexto valor: ")
+		leia(val6)
+		escreva("Digite o sétimo valor: ")
+		leia(val7)
+		escreva("Digite o oitavo valor: ")
+		leia(val8)
+		escreva("Digite o nono valor: ")
+		leia(val9)
+		escreva("Digite o décimo valor: ")
+		leia(val10)
+
+		total = val1 + val2 + val3 + val4 + val5 + val6 + val7 + val8 + val9 + val10
+
+		escreva("A soma dos números informados é " ,total)
+	}
+}
