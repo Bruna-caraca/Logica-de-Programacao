@@ -1,3 +1,4 @@
+/*Faça um programa que imprima os 10 primeiros números inteiros maiores que 100*/
 programa
 {
 	inclua biblioteca Util --> tempo
