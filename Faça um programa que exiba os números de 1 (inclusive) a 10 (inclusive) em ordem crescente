@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Util
+ --> tempo
+	
+inteiro num
+	
+	funcao inicio()
+	{
+		num = 0
+		escreva("Números de 1 a 10\n")
+		tempo.aguarde(1000)
+		
+		enquanto (num < 10) {
+			num = num + 1
+			escreva(num, "\n")
+			tempo.aguarde(1000)
+		}
+	}
+}
