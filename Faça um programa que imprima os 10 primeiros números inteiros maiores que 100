@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Util --> tempo
+	inteiro num
+	
+	funcao inicio()
+	{
+		num = 100
+		escreva("10 primeiros números maiores que 100\n")
+		tempo.aguarde(1000)
+		
+		enquanto (num < 110) {
+			num = num + 1
+			escreva(num, "\n")
+			tempo.aguarde(1000)
+		}
+	}
+}	
